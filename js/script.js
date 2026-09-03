@@ -439,11 +439,11 @@ document.addEventListener("keydown", function(event) {
 const replayButton =
     document.getElementById("replayButton");
 
-replayButton.addEventListener("click", function() {
-
-    location.reload();
-
-});
+if (replayButton) {
+    replayButton.addEventListener("click", function() {
+        location.reload();
+    });
+}
 
 
 /* =====================================
