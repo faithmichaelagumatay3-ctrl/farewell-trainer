@@ -561,15 +561,16 @@ form button:hover {
 ===================================== */
 
 #mainSite {
-
-    opacity: 0;
-
+    opacity: 1;
+    visibility: visible;
     transition: opacity 1.5s ease;
 }
 
 #mainSite.visible {
     opacity: 1;
+    visibility: visible;
 }
+
 
 
 /* =====================================
