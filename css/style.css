@@ -1632,30 +1632,11 @@ form button:hover {
     object-fit: cover;
 }
 
-/* =====================================
-   RESPONSIVE
-===================================== */
-
-@media (max-width: 900px) {
-
-    .nav-links {
-        display: none;
-    }
-
-    .trainer-grid {
-        grid-template-columns: 1fr;
-
-        gap: 50px;
-    }
-
-    .letters-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-}
-
 @media (max-width: 600px) {
+
+    /* =========================
+       GENERAL MOBILE
+    ========================= */
 
     .folder-content {
         padding: 25px;
@@ -1665,61 +1646,10 @@ form button:hover {
         font-size: 48px;
     }
 
-    .hero {
-        padding: 120px 6%;
-    }
 
-    .hero h1 {
-        letter-spacing: -4px;
-    }
-
-    .trainer-section,
-    .letters-section,
-    .memories-section {
-        padding: 90px 6%;
-    }
-
-    .letters-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .memory-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .idle-section {
-
-        flex-direction: column;
-
-        gap: 20px;
-
-        text-align: center;
-
-        padding: 80px 6%;
-    }
-
-    .modal-box {
-        padding: 30px;
-    }
-
-    .modal-box h2 {
-        font-size: 35px;
-    }
-
-     .modal {
-        padding: 20px 10px;
-    }
-
-    .modal-box {
-        padding: 25px 18px;
-    }
-
-    .van-videos video {
-        width: 100%;
-    }
-}
-
-@media (max-width: 600px) {
+    /* =========================
+       HERO
+    ========================= */
 
     .hero {
         min-height: 100vh;
@@ -1729,6 +1659,8 @@ form button:hover {
 
     .hero-content {
         width: 100%;
+        position: relative;
+        z-index: 2;
     }
 
     .hero h1 {
@@ -1745,13 +1677,67 @@ form button:hover {
         z-index: 0;
     }
 
-    .hero-content {
-        position: relative;
-        z-index: 2;
-    }
-}
 
-@media (max-width: 600px) {
+    /* =========================
+       SECTIONS
+    ========================= */
+
+    .trainer-section,
+    .letters-section,
+    .memories-section {
+        padding: 90px 6%;
+    }
+
+
+    /* =========================
+       GRIDS
+    ========================= */
+
+    .letters-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .memory-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* =========================
+       IDLE SECTION
+    ========================= */
+
+    .idle-section {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 80px 6%;
+    }
+
+
+    /* =========================
+       MODAL
+    ========================= */
+
+    .modal {
+        padding: 20px 10px;
+    }
+
+    .modal-box {
+        padding: 25px 18px;
+    }
+
+    .modal-box h2 {
+        font-size: 35px;
+    }
+
+    .van-videos video {
+        width: 100%;
+    }
+
+
+    /* =========================
+       FIX FIXED NAVBAR
+    ========================= */
 
     #briefing,
     #trainer,
