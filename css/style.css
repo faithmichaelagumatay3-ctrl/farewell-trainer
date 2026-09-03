@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+   scroll-padding-top: 110px;
 }
 
 body {
@@ -1748,4 +1749,16 @@ form button:hover {
         position: relative;
         z-index: 2;
     }
+}
+
+@media (max-width: 600px) {
+
+    #briefing,
+    #trainer,
+    #letters,
+    #memories,
+    #final {
+        scroll-margin-top: 110px;
+    }
+
 }
