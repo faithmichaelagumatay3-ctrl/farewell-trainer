@@ -1634,17 +1634,38 @@ form button:hover {
 
 @media (max-width: 600px) {
 
-    /* =========================
-       GENERAL MOBILE
-    ========================= */
-
-    .folder-content {
-        padding: 25px;
+    .letters-section {
+        padding: 100px 6%;
     }
 
-    .folder h1 {
-        font-size: 48px;
+    .section-heading {
+        max-width: 100%;
+        margin-bottom: 50px;
     }
+
+    .section-heading h2 {
+        font-size: clamp(48px, 15vw, 72px);
+        line-height: 0.92;
+        letter-spacing: -3px;
+        word-break: normal;
+    }
+
+    .section-heading > p:last-child {
+        font-size: 14px;
+        max-width: 100%;
+        line-height: 1.7;
+    }
+
+    .letters-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    #letters {
+        scroll-margin-top: 110px;
+    }
+
+}
 
 
     /* =========================
