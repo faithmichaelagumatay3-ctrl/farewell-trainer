@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trainer's Farewell Mission</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================
+         LOGIN SCREEN
+    ========================== -->
+
+    <section id="loginScreen" class="screen active">
+
+        <div class="scanlines"></div>
+
+        <div class="classified">
+
+            <div class="top-secret">
+                TOP SECRET
+            </div>
+
+            <div class="folder">
+
+                <div class="folder-header">
+                    <span>MISSION FILE</span>
+                    <span class="status">
+                        ● CLASSIFIED
+                    </span>
+                </div>
+
+                <div class="folder-content">
+
+                    <div class="lock-icon">
+                        🔐
+                    </div>
+
+                    <p class="small-label">
+                        TRAINER FAREWELL PROTOCOL
+                    </p>
+
+                    <h1>
+                        ONE LAST<br>
+                        <span>MISSION</span>
+                    </h1>
+
+                    <p class="description">
+                        A classified collection of memories,
+                        letters, and messages from the people
+                        you trained.
+                    </p>
+
+                    <form id="loginForm">
+
+                        <label>
+                            IDENTIFICATION
+                        </label>
+
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Enter your name"
+                            autocomplete="off"
+                            required
+                        >
+
+                        <label>
+                            ACCESS CODE
+                        </label>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Enter secret code"
+                            required
+                        >
+
+                        <button type="submit">
+                            ACCESS THE FILE
+                        </button>
+
+                        <p id="loginError" class="error"></p>
+
+                    </form>
+
+                    <div class="security">
+                        SYSTEM STATUS:
+                        <span>SECURE</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="classified-footer">
+                AUTHORIZED PERSONNEL ONLY • FILE 2026
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     ACCESS GRANTED
+========================== -->
+
+<section id="accessScreen">
+
+    <div class="access-container">
+
+        <div class="access-warning">
+            ACCESS GRANTED
+        </div>
+
+        <div class="access-icon">
+            ✓
+        </div>
+
+        <h1>
+            OH YEAHHH!
+        </h1>
+
+        <p>
+            THE FAREWELL FILE HAS BEEN UNLOCKED.
+        </p>
+
+        <!-- OH YEAHH VIDEO -->
+
+        <video
+            id="ohYeahVideo"
+            class="ohyeah-video"
+            playsinline
+        >
+            <source src="videos/oh_yeah.mp4" type="video/mp4">
+        </video>
+
+        <div class="loading-line">
+            <div></div>
+        </div>
+
+        <span class="loading-text">
+            LOADING MEMORIES...
+        </span>
+
+    </div>
+
+</section>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <main id="mainSite">
+
+        <!-- NAVIGATION -->
+
+        <audio id="bgMusic" loop>
+            <source src="audio/mission.mp3" type="audio/mpeg">
+        </audio>
+
+        <nav class="navbar">
+
+            <div class="nav-logo">
+                <span>MISSION</span> 2026
+            </div>
+
+            <div class="nav-links">
+
+                <a href="#briefing">
+                    BRIEFING
+                </a>
+
+                <a href="#letters">
+                    LETTERS
+                </a>
+
+                <a href="#memories">
+                    MEMORIES
+                </a>
+
+                <a href="#final">
+                    FINAL
+                </a>
+
+            </div>
+
+        </nav>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section id="briefing" class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="hero-content">
+
+                <div class="mission-label">
+                    MISSION FILE #001
+                </div>
+
+                <h1>
+                    ONE LAST
+                    <span>MISSION.</span>
+                </h1>
+
+                <p>
+                    Every mission eventually ends.
+                    But some people leave behind
+                    memories that never do.
+                </p>
+
+                <a href="#trainer" class="mission-button">
+                    BEGIN BRIEFING ↓
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TRAINER SECTION
+        ========================== -->
+
+        <section id="trainer" class="trainer-section">
+
+            <div class="section-number">
+                01 / THE TRAINER
+            </div>
+
+            <div class="trainer-grid">
+
+                <div class="trainer-image-container">
+
+                    <div class="image-frame">
+
+                        <!--
+                        Replace trainer.png
+                        with your trainer's image
+                        -->
+
+                        <div class="trainer-slideshow">   
+                            <img
+                            src="pictures/trainer.jpg"
+                            alt="Trainer"
+                            class="trainer-photo photo-1"
+                            >
+
+                            <img
+                            src="pictures/trainer-meme.jpg"
+                            alt="Trainer"
+                            class="trainer-photo photo-2"
+                            >
+
+                        </div>
+
+                        <div class="image-tag">
+                            SUBJECT: TRAINER
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="trainer-info">
+
+                    <p class="eyebrow">
+                        OPERATION PROFILE
+                    </p>
+
+                    <h2>
+                        THE ONE<br>
+                        WHO TRAINED US.
+                    </h2>
+
+                    <p>
+                        Behind every trainee who learned,
+                        struggled, improved, and eventually
+                        became confident was someone who
+                        patiently guided them.
+                    </p>
+
+                    <p>
+                        This file contains something
+                        different from a normal mission report.
+                    </p>
+
+                    <div class="quote-box">
+
+                        <span>MISSION NOTE</span>
+
+                        <p>
+                            "A great trainer doesn't just
+                            teach the job. They leave a
+                            part of themselves in the people
+                            they trained."
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             IDLE CHARACTER
+        ========================== -->
+
+        <section class="idle-section">
+
+            <div class="idle-character">
+
+                <!--
+                Your 2-frame GIF goes here.
+
+                Example:
+                gifs/idle.gif
+                -->
+
+                <img
+                    src="gif/ohyeah.gif"
+                    alt="Trainer idle animation"
+                >
+
+            </div>
+
+            <div class="idle-text">
+
+                <span>
+                    TRAINER STATUS
+                </span>
+
+                <h2>
+                    Still standing.
+                </h2>
+
+                <p>
+                    Waiting for the next mission...
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LETTERS
+        ========================== -->
+
+        <section id="letters" class="letters-section">
+
+            <div class="section-number">
+                02 / FAREWELL LETTERS
+            </div>
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    TRANSMISSIONS RECEIVED
+                </p>
+
+                <h2>
+                    MESSAGES<br>
+                    FROM THE TEAM.
+                </h2>
+
+                <p>
+                    Different people.
+                    Different memories.
+                    One farewell.
+                </p>
+
+            </div>
+
+
+            <div class="letters-grid">
+
+
+                <!-- LETTER 1 -->
+
+                <article
+                    class="letter-card"
+                    data-name="MIKA"
+                    data-message="Dear Josh,
+You made learning fun and bearable. The first time I met you, I wondered how strict you were going to be. Even though you’ve only been with us for a few weeks, I already feel extremely comfortable confiding in you. You are truly one of the most generous people I have met.
+I know this isn’t goodbye, since we work for the same company, haha. But I hope you enjoy this website I made for you — a reminder of what a good‑hearted person you are. On our first day, you mentioned that your forgiveness has its limits, but with us, it felt unmeasurable.
+Thank you for the laughter and the chitchats we’ve shared.
+From,
+Mika"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 001</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        MIKA
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+
+                <!-- LETTER 2 -->
+
+                <article
+                    class="letter-card"
+                    data-name="kilo"
+                    data-message="thank you for guiding me throughout the training, josh! i really appreciate all the things you taught me and the patience you had with us. also, thank you for the bond and all the good laughs we shared. glad i got to have you as my trainer"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 002</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Kilo
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+
+                <!-- LETTER 3 -->
+
+                <article
+                    class="letter-card"
+                    data-name="Sexy"
+                    data-message="Thank you, Joshie sa lahat ng tinuro mong knowledge sa tools at sa kalokohan. Salamat sa mahabang pasensiya for us.. Wag kang mag over work sis. Di ka pamamanahan ng kumpanya. Hahaha eme, Salamat sa Bonding.. See You around Lt."
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 003</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Sexy
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+
+                <!-- LETTER 4 -->
+
+                <article
+                    class="letter-card"
+                    data-name="Rufz"
+                    data-message="Thank you for your hard work and dedication. Wishing you success ahead."
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 004</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Rufz
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Claud"
+                    data-message="Joshieeee you know naman na we appreciate you so much, thank you sa grabeng effort na turuan kami, thank you sa patience kahit sobrang kukupal ng wave namin hahahaha. Mag iingat ka kung san ka man dalahen ni Sagility but we know it's not our goodbyes naman pero sana dalawin mo kami sa panageneeep wakakakakakak. Ayun lang sana may inoman session bago ka umalis ano? sugod talaga kami jan sainyo pagka wala subukan mo lang 😆
+
+Thank you so much joshieee namin, Wave 13 loved and appreciated you so so so muchiiiiie 🫂❤️"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 005</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Claud
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Austine"
+                    data-message="Thank you for doing your very best sa pakikisama samin, I know na makulit, but of course nakikinig kami sayo. I hope for your biggest growth sa career mo, thank you.
+"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 006</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Austine
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+<!-- LETTER 7 / VIDEO FROM VAN -->
+
+<article
+    class="letter-card"
+    data-name="Van"
+    data-message="A special video transmission from Van."
+    data-video1="videos/van.mp4"
+    data-video2="videos/van-2.mp4"
+    data-video3="videos/van-3.mp4"
+>
+
+    <div class="letter-top">
+        <span>FILE 007</span>
+        <span>OPEN</span>
+    </div>
+
+    <div class="letter-icon">
+        ▶
+    </div>
+
+    <h3>
+        A VIDEO FROM
+    </h3>
+
+    <h2>
+        Van
+    </h2>
+
+    <button class="open-letter">
+        OPEN FILE →
+    </button>
+
+</article>
+
+                                <article
+                    class="letter-card"
+                    data-name="David"
+                    data-message="Hi Joshieeee first of all thank you so much for giving the leanings that you've done to us, and for being patient, specially being open to get easily attached on what humor we have. We would like to know you this is not the end of our friendship HSB WAVE 13 lifted up your personality. Thank you so much and keep up the good work!"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 008</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        David
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Liwanag"
+                    data-message="Hi Josh, I know we only knew each other for a short time, and our connection wasn't that deep yet, but you already trusted me enough to lend me some. I hope we get to work together again for a longer period in the future. Take care in your new class, have fun, enjoy, and get as much rest as you can. I will cherish all the bonds we shared and all the knowledge you’ve passed on."
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 009</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Liwanag
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Aelai"
+                    data-message="Hello Josh! Thank you for always looking out for us. Sobrang thankful ako kasi for my first job, ikaw yung isa sa mga nag g-guide samin because you're good at doing your job and nagp-provide ka samin ng safe working environment. Medyo na lessen yung takot ko as I enter the adult world kasi you guys are so nice sa aminn. Don't forget to take care of yourself & keep safe!"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 010</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Aelai
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+    class="letter-card"
+    data-name="Bebe ko"
+    data-picture="pictures/bebe-ko.jpg"
+    data-message="hi Josh, ako na nagpabakasyon sayo.. deserve mo mag bakasyon charet😅🤣. 
+
+kidding aside, im not good at making this kind of message, but i just wanted you to know that THANK YOU! 🤍🤍✨✨ i don't know Just thank you! haha.. in general ang galing mo makisama 🤍 nagyoyosi or hindi inuupuan mo, nakikipag kwentuhan ka 🤍🤍 ayaw ko na masyado long mssge nakakaiyak baka mapa-yosi ako. haha yun lang love lots 🤍✨"
+>
+
+    <div class="letter-top">
+        <span>FILE 011</span>
+        <span>OPEN</span>
+    </div>
+
+    <div class="letter-icon">
+        ✉
+    </div>
+
+    <h3>
+        A LETTER FROM
+    </h3>
+
+    <h2>
+        Bebe ko
+    </h2>
+
+    <button class="open-letter">
+        OPEN FILE →
+    </button>
+
+</article>
+
+<article
+    class="letter-card"
+    data-name="Edz"
+    data-video1="videos/edz-video.mp4"
+>
+
+    <div class="letter-top">
+        <span>FILE 012</span>
+        <span>OPEN</span>
+    </div>
+
+    <div class="letter-icon">
+        ▶
+    </div>
+
+    <h3>
+        A LETTER FROM
+    </h3>
+
+    <h2>
+        Edz
+    </h2>
+
+    <button class="open-letter">
+        OPEN FILE →
+    </button>
+
+</article>
+
+                
+                <article
+                    class="letter-card"
+                    data-name="Ellie"
+                    data-message="Hi Josh! Just wanna say that we're so thankful being your trainees. Apaka saya and dami kong natutunan ngayong PST. So sad lang na need mo na lumipat ng mga ite-train pero I know that they'll be a good agent den in the future. Goodluck sa mga susunod mo pang trainees and more bardagulan to come HAHAHHAHHAHHAH."
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 013</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Ellie
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Sarah"
+                    data-message="Hi josh It's never easy to say goodbye especially to you that felt like home but Thank you for the memories, the laughter, the growth, and the bond we build It's very sad na hindi kana namen makaka sama sa nesting, but this isn't a goodbye but see you around Wishing nothing but the best for you josh kapag asa pinakamataas kana sama mo kami HAHAHHA"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 014</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Sarah
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Cielo"
+                    data-message="hi joshua marie, thank u for always guiding us kahit parang pepe sa ingay mga bibig namin. take care always te, marami ka pang trainees na tuturuan maging kanal lovelots"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 015</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Cielo
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+                
+                <article
+                    class="letter-card"
+                    data-name="Marvie"
+                    data-message="To Josh our friendly and sweet trainer haha eme thank you for being kind and fair you’re not bias when it comes to us. You are the kind of person that sees someone as a good person amidst all the errors haha but anyways always been thankful to have a trainer like you, within almost 3 weeks I see that your a good person and been a huge help to us in our PST, you balance professionalism and being friendly to us. May God bless you with all the success to your life and career path and stay kind! Thank You Josh.❤️"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 016</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Marvie
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+<article
+    class="letter-card"
+    data-name="Aly"
+    data-message="Hi joshiewww, thank you so much sa lahat lahat ng knowledge kung hindi dahil sayo hindi magiging madali ang pst namin. Ikaw ang nag pagaan ng lahat lahat, lalo na saming mga newbies. Thank you so much sa lahat guidance at pagiging pinaka mabait na trainer samin💗💗 i hope mas maging successful ka pa sa career mo because you deserve that. We will miss you sa prod josh, salamat sa pag papalakas ng loob namin we love you💗💗"            
+>
+
+    <div class="letter-top">
+        <span>FILE 017</span>
+        <span>OPEN</span>
+    </div>
+
+    <div class="letter-icon">
+        ✉
+    </div>
+
+    <h3>
+        A LETTER FROM
+    </h3>
+
+    <h2>
+        Aly
+    </h2>
+
+    <button class="open-letter">
+        OPEN FILE →
+    </button>
+
+</article>
+
+                
+                <article
+                    class="letter-card"
+                    data-name="Ken"
+                    data-message="Hi Josh! Thank you so much for being such an amazing and friendly trainer to us. You are not just a professional and incredibly smart trainer, but also a truly good and relatable friend. You are leaving us with not only great knowledge but also wonderful memories that we will always cherish. This is not a goodbye, that's for sure! We wish you all the best! See you around!"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 018</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Ken
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+
+                <article
+                    class="letter-card"
+                    data-name="Agnes"
+                    data-message="Hi Joshiee, I just want to thank you for your effort, knowledge, and existence?? Thankiiie for being not just a great trainer, but also for making us laugh and stay motivated. It was truly a memorable experience for all of us.😙💅🏻"
+                >
+
+                    <div class="letter-top">
+                        <span>FILE 019</span>
+                        <span>OPEN</span>
+                    </div>
+
+                    <div class="letter-icon">
+                        ✉
+                    </div>
+
+                    <h3>
+                        A LETTER FROM
+                    </h3>
+
+                    <h2>
+                        Agnes
+                    </h2>
+
+                    <button class="open-letter">
+                        OPEN FILE →
+                    </button>
+
+                </article>
+                
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+     PHOTO MEMORIES
+========================== -->
+
+<section id="memories" class="memories-section">
+
+    <div class="section-number">
+        03 / MEMORY ARCHIVE
+    </div>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            CLASSIFIED PHOTOGRAPHS
+        </p>
+
+        <h2>
+            THE MEMORIES
+            <span>WE KEEP.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="memory-grid">
+
+        <!-- MEMORY 01 -->
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <img
+                    src="pictures/memories/wave13.jpg"
+                    alt="Memory 01"
+                >
+
+                <div class="memory-number">
+                    01
+                </div>
+
+            </div>
+
+            <div class="memory-info">
+                <span>MEMORY FOOTAGE 01</span>
+                <p>CLASSIFIED MOMENT</p>
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 02 -->
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <img
+                    src="pictures/memories/wave13-1.jpg"
+                    alt="Memory 02"
+                >
+
+                <div class="memory-number">
+                    02
+                </div>
+
+            </div>
+
+            <div class="memory-info">
+                <span>MEMORY FOOTAGE 02</span>
+                <p>CLASSIFIED MOMENT</p>
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 03 -->
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <img
+                    src="pictures/memories/wave13-2.jpg"
+                    alt="Memory 03"
+                >
+
+                <div class="memory-number">
+                    03
+                </div>
+
+            </div>
+
+            <div class="memory-info">
+                <span>MEMORY FOOTAGE 03</span>
+                <p>CLASSIFIED MOMENT</p>
+            </div>
+
+        </div>
+
+
+        <!-- MEMORY 04 -->
+        <div class="memory-card">
+
+            <div class="memory-image">
+
+                <img
+                    src="pictures/memories/wave13-3.jpg"
+                    alt="Memory 04"
+                >
+
+                <div class="memory-number">
+                    04
+                </div>
+
+            </div>
+
+            <div class="memory-info">
+                <span>MEMORY FOOTAGE 04</span>
+                <p>CLASSIFIED MOMENT</p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+
+        <!-- =========================
+             FINAL FAREWELL
+        ========================== -->
+
+        <section id="final" class="final-section">
+
+            <div class="final-content">
+
+                <div class="final-status">
+                    MISSION STATUS
+                </div>
+
+                <h1>
+                    MISSION
+                    <span>COMPLETE.</span>
+                </h1>
+
+                <p>
+                    The training may be over.
+                    The mission may be complete.
+                    But the lessons and memories
+                    will continue with us.
+                </p>
+
+
+                <!-- FINAL GIF -->
+
+                <div class="final-character">
+
+                    <img
+                        src="gif/ohyeah.gif"
+                        alt="Trainer waving"
+                    >
+
+                </div>
+
+
+                <div class="final-message">
+
+                    <p>
+                        THANK YOU, TRAINER.
+                    </p>
+
+                    <span>
+                        From all of us.
+                    </span>
+
+                </div>
+
+
+                <button
+                    id="replayButton"
+                    class="mission-button"
+                >
+                    REPLAY MISSION ↻
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+     LETTER MODAL
+========================== -->
+
+<div id="letterModal" class="modal">
+
+    <div class="modal-box">
+
+        <button
+            id="closeModal"
+            class="close-modal"
+        >
+            ×
+        </button>
+
+        <p class="modal-label">
+            CLASSIFIED TRANSMISSION
+        </p>
+
+        <h2 id="modalName">
+            MIKA
+        </h2>
+
+        <div class="modal-line"></div>
+
+        <p id="modalMessage">
+            Message goes here.
+        </p>
+
+        <!-- PICTURE WILL APPEAR HERE ONLY WHEN A LETTER HAS ONE -->
+
+        <div
+            id="modalPictureContainer"
+            class="modal-picture"
+        >
+            <img
+                id="modalPicture"
+                src=""
+                alt="Letter photograph"
+            >
+        </div>
+
+        <!-- VIDEOS WILL APPEAR HERE ONLY FOR VAN -->
+
+        <div
+            id="modalVideos"
+            class="van-videos"
+        ></div>
+
+        <div class="modal-signature">
+            END OF TRANSMISSION
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+
+    <!-- =========================
+         ACCESS AUDIO
+    ========================== -->
+
+    <!--
+    Optional:
+
+    <audio id="missionSound">
+        <source src="audio/mission.mp3">
+    </audio>
+    -->
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
